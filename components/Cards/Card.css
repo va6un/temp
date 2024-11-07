@@ -1,0 +1,39 @@
+/* Card.css */
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center cards horizontally */
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 220px; /* Fixed width for each card */
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensures the image fits nicely within the dimensions */
+    border-radius: 8px;
+}
+
+.container h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.container p {
+    color: #555;
+    font-size: 0.9em;
+    margin-top: 8px;
+}
